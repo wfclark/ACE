@@ -1,0 +1,62 @@
+fieldID,text,data_type,page,repeating_group_name,help,error,enumeration_type
+date_of_evaluation,----  LINE 27 HAS EXTRA COMMA ----  Date:,date,p1,,,,
+evaluator_name,Your name:,text,p1,,,,
+evaluator_sex,Sex:,"{
+    ""Choices"": [
+        {
+            ""male"": ""Male""
+        },
+        {
+            ""female"": ""Female""
+        }
+    ]
+}",p1,,,,enumeration
+relationship_to_child,Relationship to child:,"{
+    ""Choices"": [
+        {
+            ""mother"": ""Mother""
+        },
+        {
+            ""father"": ""Father""
+        },
+        {
+            ""guardian"": ""Guardian""
+        },
+        {
+            ""other"": ""Other""
+        },
+    ]
+}",p1,,,,enumeration
+basc2_instructions,"The items that follow are phrases that describe how children may act. Please read each phrase, and mark the response that describes how this child has behaved recently (in the last several months).  Please mark every item. If you don't know or are unsure of your response to an item, give your best estimate.",instruction,p2,,,,
+basc2_1,Shares toys or possessions with other children.,"{
+    ""Choices"": [
+        {
+            ""never"": ""Never""
+        },
+        {
+            ""sometimes"": ""Sometimes""
+        },
+        {
+            ""often"": ""Often""
+        },
+        {
+            ""almost-always"": ""Almost always""
+        }
+    ]
+}",p2,,,,enumeration
+basc2_2,Speaks in short phrases that are hard to understand.,"{
+    ""Choices"": [
+        {
+            ""never"": ""Never""
+        },
+        {
+            ""sometimes"": ""Sometimes""
+        },
+        {
+            ""often"": ""Often""
+        },
+        {
+            ""almost-always"": ""Almost always""
+        }
+    ]
+}",p2,,,,enumeration

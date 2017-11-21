@@ -1,0 +1,31 @@
+id: urn:matrix_1
+record:
+- description: Matrix Header
+  id: matrixgroupname
+  identifiable: false
+  required: false
+  type:
+    base: matrix
+    columns:
+    - description: radio
+      id: radio
+      identifiable: false
+      required: false
+      type:
+        base: enumeration
+        enumerations:
+          id_1: null
+          id_2: null
+          id_3: null
+    rows:
+    - description: MatrixRow1
+      id: matrixrow1
+      required: false
+    - description: MatrixRow2
+      id: matrixrow2
+      required: false
+    - description: MatrixRow3
+      id: matrixrow3
+      required: false
+title: matrix_1
+version: '1.0'
